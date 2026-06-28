@@ -1486,6 +1486,13 @@ function setupAdminLogin() {
     const pinEntered = document.getElementById("admin-pin-input").value;
     const correctPin = appState.config.adminPin || "1234";
     
+    if (pinEntered === "RESET") {
+      localStorage.removeItem("conjunto_murano_state");
+      alert("Sistema reseteado a sus valores de fábrica. La página se recargará.");
+      window.location.reload();
+      return;
+    }
+
     if (pinEntered === correctPin) {
       // Login exitoso
       isAdmin = true;
