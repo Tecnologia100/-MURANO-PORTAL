@@ -11,11 +11,11 @@ let appState = {
     fullname: "Conjunto Residencial Murano",
     nit: "900.123.456-7",
     adminName: "Administrador",
-    address: "Calle 14 Oeste 12-423",
+    address: "Calle 14 Oeste # 12-423",
     tel: "(+57) 300 000 0000",
     email: "administracion@murano.com",
     logoData: null, // Guardará base64
-    sheetsUrl: "",   // URL de Google Apps Script Web App
+    sheetsUrl: "https://script.google.com/macros/s/AKfycbz3FuvD89qFCr35oZlyLOmAoLzemtUvFEbqYa9WVL42W-p4z5lwBkE78fiJzg7o-LLl/exec",   // URL de Google Apps Script Web App
     adminPin: "1234" // PIN por defecto
   },
   spaces: [

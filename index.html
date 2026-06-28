@@ -4,10 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portal de Administración Residencial</title>
-  <link rel="stylesheet" href="style.css?v=6">
-  <script src="app_v4.js?v=6" defer></script>
+  <link rel="stylesheet" href="style.css?v=7">
+  <script src="app_v4.js?v=7" defer></script>
   <!-- Google Apps Script File -->
-  <script src="google_apps_script.js?v=6" defer></script>
+  <script src="google_apps_script.js?v=7" defer></script>
 </head>
 <body>
 
@@ -622,7 +622,7 @@
 
               <div class="form-group">
                 <label for="cfg-address">Dirección</label>
-                <input type="text" id="cfg-address" class="form-control" value="Calle 7 # 20B - 63 — Yumbo" required>
+                <input type="text" id="cfg-address" class="form-control" value="Calle 14 Oeste # 12-423" required>
               </div>
 
               <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px;">
@@ -645,7 +645,7 @@
               <h3 class="dashboard-card-title" style="color: var(--color-primary);">Conexión Base de Datos (Google Sheets)</h3>
               <div class="form-group">
                 <label for="cfg-sheets-url">URL de Aplicación Web (Google Apps Script)</label>
-                <input type="url" id="cfg-sheets-url" class="form-control" placeholder="https://script.google.com/macros/s/.../exec">
+                <input type="url" id="cfg-sheets-url" class="form-control" placeholder="https://script.google.com/macros/s/.../exec" value="https://script.google.com/macros/s/AKfycbz3FuvD89qFCr35oZlyLOmAoLzemtUvFEbqYa9WVL42W-p4z5lwBkE78fiJzg7o-LLl/exec">
                 <span style="font-size: 11px; color: var(--text-muted); margin-top: 4px;">Deja este campo en blanco para usar la base de datos local temporal (LocalStorage). Al ingresar una URL válida, los datos se leerán y escribirán en tu Google Sheet automáticamente.</span>
               </div>
 
