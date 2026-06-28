@@ -1493,7 +1493,7 @@ function setupAdminLogin() {
       return;
     }
 
-    if (pinEntered === correctPin) {
+    if (String(pinEntered).trim() === String(correctPin).trim()) {
       // Login exitoso
       isAdmin = true;
       document.body.classList.add("admin-mode-active");
